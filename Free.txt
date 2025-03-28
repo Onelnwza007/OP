@@ -2923,13 +2923,10 @@ _Spr27 = 0x164DDD0
 _Spr28 = 0x16B67E0 
 _Spr29 = 0x16b67e4 
 function FF1()
-setvalue(so + py555, 16,hokao)
-setvalue(so + py14, 16,jekpap)    
-setvalue(so + py15, 16,jekpap)   
-setvalue(so + py16, 16,jekpap)
-setvalue(so + py18, 16,hokao) 
-gg.alert("Hit Auraและโปรเพิ่มความเร็วมีความเสี่ยง")
-gg.toast("   ✅️Hit Aura✅️")
+py555 = _Spr555
+setvalue(so + py555, 16,hokao)   
+gg.clearResults()
+gg.toast("   ✅️BYPASS✅️")
  end
 function FF2()
 py20 = _Spr20
@@ -2937,25 +2934,7 @@ setvalue(so + py20, 16,hokao)
 gg.clearResults()
 gg.toast("   ✅️Multi Hit✅️")
  end
- function FF6()
-setvalue(so + py22, 16,hokao)   
-gg.clearResults()
-gg.toast("   ✅️Speed✅️")
- end
-function FF4()
-setvalue(so + py23, 16,hokao)   
-gg.toast("   ✅️ดึงธงไม่มีอนิเมชั่น✅️")
- end
- function FF5()
- py27 = _Spr27
-setvalue(so + py27, 16,jekpap)   
-py28 = _Spr28
-setvalue(so + py28, 16,jekpap)   
-py29 = _Spr29
-setvalue(so + py29, 16,hokao)   
-gg.toast("   ✅️หยุดบอท✅️")
- end
-function FF3()
+ function FF3()
 local input = gg.prompt({"พิมพ์ระยะโปรโจมตีไกล เช่น : 2 Value: (เปลี่ยนเป็น1หลังจากจบเกมทุกครั้ง)"},
 {[1] = "1"})
 soo = gg.getRangesList("libunity.so")[2].start
@@ -2969,18 +2948,20 @@ setvalue(soo + py33, 16,input[1])
 setvalue(soo + py34, 16,input[1])   
 gg.toast("Done Set Value To: "..input[1])
 end
-function FF7()
-input=gg.choice({ "『3』", "『4.5』", "『6』"})
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1F;1051372203D;1045220557D::9", gg.TYPE_DWORD) gg.setVisible(false)
- 
-gg.refineNumber('1',8)
-set_results=gg.getResultsCount()
-gg.getResults(set_results)
-gg.editAll(3,16)
-gg.clearResults()
-gg.toast("       ✅Speed Game✅")
+function FF4()
+setvalue(so + py23, 16,hokao)   
+gg.toast("   ✅️ดึงธงไม่มีอนิเมชั่น✅️")
  end
+ function FF5()
+ py27 = _Spr27
+setvalue(so + py27, 16,jekpap)   
+py28 = _Spr28
+setvalue(so + py28, 16,jekpap)   
+py29 = _Spr29
+setvalue(so + py29, 16,hokao)   
+gg.toast("   ✅️หยุดบอท✅️")
+ end
+
 function Exit()
 gg.isVisible(true)
 print("Bye💖")
