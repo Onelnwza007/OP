@@ -1,5 +1,5 @@
 local v = gg.getTargetInfo()
-local RealVersion=81000
+local RealVersion=8000
 if v.versionCode ~= RealVersion then
     print('♥️สคริปต์นี้ใช้ได้กับเกมเวอร์ชั่น',RealVersion,'เท่านั้น\nคุณมีเวอร์ชั่นเกม ',v.versionCode,'\nโปรดลบตัวเกมปัจจุบันกับติดตั้งเวอร์ชัน ',RealVersion,' แล้วลองอีกครั้ง\nถึงจะใช้ได้ปกติครับ♥️')
     os.exit()
