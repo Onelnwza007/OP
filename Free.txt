@@ -1,8 +1,8 @@
 local v = gg.getTargetInfo()
-local RealVersion=81000
+local RealVersion=81010
 if v.versionCode ~= RealVersion then
-    print('❗️นี่คือข้อความอัตโนมัติ❗️\n♥️สคริปต์นี้ใช้ได้กับเกมเวอร์ชั่น',RealVersion,'เท่านั้น\nคุณมีเวอร์ชั่นเกม ',v.versionCode,'\nโปรดลบตัวเกมปัจจุบันแล้วติดตั้งเวอร์ชัน ',RealVersion,' แล้วลองอีกครั้ง\nถึงจะใช้ได้ปกติครับ\nทางเราได้คัดลอกลิงค์ตัวเกมเวอร์ชั่น',RealVersion,'ให้ผู้ใช้งานแล้ว\nhttps://apkcombo.com/one-piece-bounty-rush/com.bandainamcoent.opbrww/download/phone-81000-apk♥️')
-    gg.copyText("https://apkcombo.com/one-piece-bounty-rush/com.bandainamcoent.opbrww/download/phone-81000-apk")
+    print('❗️นี่คือข้อความอัตโนมัติ❗️\n♥️สคริปต์นี้ใช้ได้กับเกมเวอร์ชั่น',RealVersion,'เท่านั้น\nคุณมีเวอร์ชั่นเกม ',v.versionCode,'\nโปรดลบตัวเกมปัจจุบันแล้วติดตั้งเวอร์ชัน ',RealVersion,' แล้วลองอีกครั้ง\nถึงจะใช้ได้ปกติครับ\nทางเราได้คัดลอกลิงค์ตัวเกมเวอร์ชั่น',RealVersion,'ให้ผู้ใช้งานแล้ว\nhttps://apkcombo.com/one-piece-bounty-rush/com.bandainamcoent.opbrww/download/phone-81010-apk♥️')
+    gg.copyText("https://apkcombo.com/one-piece-bounty-rush/com.bandainamcoent.opbrww/download/phone-81010-apk")
     os.exit()
 end
 
@@ -2869,14 +2869,14 @@ end
 gg.setVisible(false)
 gg.clearResults()
 gg.clearList()
-_Spr22 = 0x16F6308 
-_Spr18 = 0x14c0b64 
-_Spr14 = 0x16D1468 
-_Spr15 = 0x14C0060 
-_Spr16 = 0x14C0B60 
-_Spr555 = 0x155C148 
-_Spr23 = 0x16A27C4 
-_Spr20 = 0x1674CC4 
+_Spr22 = 0x16F75F0 
+_Spr18 = 0x14bdb74 
+_Spr14 = 0x14BD070 
+_Spr15 = 0x16D2744 
+_Spr16 = 0x14BDB70 
+_Spr555 = 0x1557198 
+_Spr23 = 0x16A3A18 
+_Spr20 = 0x1673D30 
 py14 = _Spr14
 py15 = _Spr15
 py16 = _Spr16
@@ -2920,9 +2920,9 @@ _Spr31 = 0xfb032c
 _Spr32 = 0xfb0330 
 _Spr33 = 0xfb0334 
 _Spr34 = 0xfb0338 
-_Spr27 = 0x164DDD0 
-_Spr28 = 0x16B67E0 
-_Spr29 = 0x16b67e4 
+_Spr27 = 0x164BE3C 
+_Spr28 = 0x16B7A5C 
+_Spr29 = 0x16b7a60 
 function FF1()
 py555 = _Spr555
 setvalue(so + py555, 16,hokao)   
