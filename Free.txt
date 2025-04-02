@@ -1,11 +1,10 @@
 local v = gg.getTargetInfo()
 local RealVersion=81010
 if v.versionCode ~= RealVersion then
-    print('❗️นี่คือข้อความอัตโนมัติ❗️\n♥️สคริปต์นี้ใช้ได้กับเกมเวอร์ชั่น',RealVersion,'เท่านั้น\nคุณมีเวอร์ชั่นเกม ',v.versionCode,'\nโปรดลบตัวเกมปัจจุบันแล้วติดตั้งเวอร์ชัน ',RealVersion,' แล้วลองอีกครั้ง\nถึงจะใช้ได้ปกติครับ\nทางเราได้คัดลอกลิงค์ตัวเกมเวอร์ชั่น',RealVersion,'ให้ผู้ใช้งานแล้ว\nhttps://apkcombo.com/one-piece-bounty-rush/com.bandainamcoent.opbrww/download/phone-81010-apk♥️')
-    gg.copyText("https://apkcombo.com/one-piece-bounty-rush/com.bandainamcoent.opbrww/download/phone-81010-apk")
+    print('❗️นี่คือข้อความอัตโนมัติ ตรวจพบว่าคุณใช้เวอร์ชั่นตัวเกมที่ไม่ได้รองรับ❗️\n♥️สคริปต์นี้ใช้ได้กับเกมเวอร์ชั่น',RealVersion,'เท่านั้น\nคุณมีเวอร์ชั่นเกม ',v.versionCode,'\nโปรดลบตัวเกมปัจจุบันแล้วติดตั้งเวอร์ชัน ',RealVersion,' แล้วลองอีกครั้ง\nถึงจะใช้ได้ปกติครับ\nทางเราได้คัดลอกลิงค์ตัวเกมเวอร์ชั่น',RealVersion,'ให้ผู้ใช้งานแล้ว\nhttps://one-piece-bounty-rush.en.uptodown.com/android/download/1070058740-x♥️')
+    gg.copyText("https://one-piece-bounty-rush.en.uptodown.com/android/download/1070058740-x")
     os.exit()
 end
-
 
 
 
